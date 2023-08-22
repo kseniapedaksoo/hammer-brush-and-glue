@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hammer, Brush & Glue Learning Centre offers creative afterschool classes for kids aged 5-9. Let your child explore the world of art and develop essential skills in a supportive environment. Join us and see the transformative power of art in your child's life! Monday to Friday. Sandyford, Dublin. Call us on 090 7333333">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dokdo&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hammer, Brush & Glue Learning Centre: Unleash Your Child's Creative</title>
+</head>
+
+<body>
+
+    <button id="myBtn" class="can-touch" title="Go to top">Top</button>
+
+    <!-- Start of the Header with navigation-->
+    <header>
+        <div class="menu-wrapper">
+            <button type="button" class="enquire-button" value="Enquire" onclick="location.href='#enquire'">Enquire</button>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#home" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#classes">Classes</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="logo-mobile">
+                        <a href="#"><img src="images/logo-medium.webp" alt="hummerBrushAndGlue-logo"></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <a href="#"><img src="images/logo-medium.webp" alt="hummerBrushAndGlue-logo"></a>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <!-- End of the Header with navigation-->
+
+    <!-- Main starts here -->
+    <main>
+        <!-- Start of the Home section -->
+        <div id="home" class="home-container">
+            <div class="wrapper">
+                <!--<h1>Place where creativity comes to Life</h1>-->
+                <!-- The video -->
+                <div class="video-wrapper">
+                    <video id="myVideo" playsinline preload="auto" loop muted="muted" autoplay  >
+                        <source src="video/painting-class-in-active-medium.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                   <button type="button" id="vidButton" value="pause" class="video-button"><img src="images/icons/pause.webp" alt="pause"></button> 
+                </div>
+               
+                <div class="home-content">
+                    <h1>Every child is an artist</h1>
+                    <p>Introducing children to the world of art can prove to be an exceptional way
+                        <br> for them to enhance their skills and gain new abilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End of the Home section -->
+
+        <!-- Start of the What Children Say slider -->
+        <div class="section-children-say">
+            <h2>What children Say</h2>
+            <div class="slider">
+                <div class="children-say-slide">
+                    <div class="testimonial">
+                        <div class="testimonial-author">
+                            <img src="images/what-children-say/emily-medium.webp" alt="" class="testimonial-photo">
+                        </div>
+                        <h3 class="testimonial-header">Emily 5-year-old</h3>
+                        <p class="testimonial-text">
+                            "Wow, I had the BEST time in my cutting and pasting classes! I learned super-duper cool stuff!
+                            Now I can cut all sorts of shapes and stick them together to make the most amazing crafts ever!
+                            My teacher was really, really nice and taught me new tricks. We even used colourful paper and
+                            shiny glitter, it was like magic! I had a blast and I can't wait to keep making more awesome
+                            things with scissors and glue. Thank you for the most amazing time ever!"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="children-say-slide">
+                    <div class="testimonial">
+                        <div class="testimonial-author">
+                            <img src="images/what-children-say/jack-medium.webp" alt="" class="testimonial-photo">
+                        </div>
+                        <h3 class="testimonial-header">
+                            Jack 7-year-old
+                        </h3>
+                        <p class="testimonial-text">
+                            "I had soooo much fun in my drawing and painting classes this year! I learned to draw people,
+                            animals, and even big, beautiful landscapes. My teacher showed me cool tricks like shading and
+                            mixing colours. I got to use all sorts of paints and brushes too! I'm super proud of my
+                            paintings and how much I've improved. I can't wait to keep making art and getting even better!"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="children-say-slide">
+                    <div class="testimonial">
+                        <div class="testimonial-author">
+                            <img src="images/what-children-say/elton-medium.webp" alt="" class="testimonial-photo">
+                        </div>
+                        <h3 class="testimonial-header">
+                            Elton 9-year-old
+                        </h3>
+                        <p class="testimonial-text">
+                            "I had the most awesome time at Hammer, brush & Glue this year! I learned how to use real tools
+                            like hammers, saws, and drills. My teacher taught me how to measure, cut, and shape wood into
+                            cool projects. I made my very own wooden toys, a birdhouse, and even a little chair! It was so
+                            exciting to see my ideas come to life. I feel super proud of what I did. Woodworking is the
+                            best, and I can't wait to keep building and creating more amazing things!"
+                        </p>
+                    </div>
+                </div>
+
+                <button type="button" value="button-left" class="children-say-slider-btn children-say-slider-btn-left"><img class="blue-arrows" src="images/icons/left-blue-small.png" alt="arrow-left"></button>
+                <button type="button" value="button-right" class="children-say-slider-btn children-say-slider-btn-right"><img class="blue-arrows" src="images/icons/right-blue-small.png" alt="arrow-right"></button>
+
+                <div class="children-say-dots"></div>
+            </div>
+        </div>
+        <!-- End of the What Children Say slider -->
+
+        <!-- Start of the Classes section -->
+        <div id="classes" class="wrapper our-classes">
+            <h2>Our Classes</h2>
+            <p>Don't be hesitant or assume that your child lacks artistic ability. It's all about developing skills!
+                Consider enrolling them in one or multiple classes. They'll have the opportunity to meet new friends and
+                explore their creativity. Plus, they'll have some gorgeous artwork to keep, gift, or even sell!</p>
+            <p>If you need more details, you can reach us by phone at <a href="tel:090-7333333">090 7333333</a> or by email at
+                <a href="mailto:director@hammerbrushglue.com">director@hammerbrushglue.com</a>.
+            </p>
+
+            <div class="class">
+                <h3>Drawing and Painting class</h3>
+                <div class="class-content">
+                    <div class="class-content-wrapper">
+                        <p>The course curriculum covers the fundamentals of fine art, including the history of painting and
+                            various drawing techniques that children will master.
+                            The course is designed for children who do not have initial training or with minimal training.
+                            The program consists of four thematic cycles, which are :
+
+                            <br>Cycle I. Introduction. Still-life.
+                            <br>Cycle II. Drawing plants. Landscape.
+                            <br>Cycle III. Fundamentals of perspective.
+                            <br>Cycle IV. Drawing animals and birds.
+                        </p>
+                        <button type="button" aria-label="expand-ditails" value="Expand-details" class="accordion">Expand details:</button>
+                        <div class="panel">
+                            <ul>
+                                <li>Course Supervisor – Debry Swanson</li>
+                                <li>Course duration – 1 year – Monday to Friday - 2 hours per Day.*</li>
+                                <li>All supplies included. </li>
+                                <li>This class is limited to 10 students.</li>
+                                <li>Suitable for children 7-9 years old.</li>
+                                <li>Bring your biggest toothiest smile!</li>
+                            </ul>
+                            <p>*The next class starts in September 2023. Please, find more information about <a
+                                    href="#schedule-fees"> Schedule & Fees</a>.</p>
+                        </div>
+                    </div>
+                    <div class="class-image image-painting">
+                        <button type="button" value="Enquire" class="enquire-button" onclick="location.href='#enquire'">Enquire</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="class">
+                <h3>Cutting and Pasting class</h3>
+                <div class="class-content">
+                    <div class="class-content-wrapper">
+                        <div class="class-content-container">
+                            <p>Working with paper has great educational value, particularly in terms of a child's mental and
+                                aesthetic development. Designing can expand their horizons and foster a creative attitude
+                                towards life. Taking a course on creating paper products can also enhance a child's artistic
+                                taste. It teaches them to observe and identify key characteristics, which can be valuable
+                                skills.
+                            </p>
+                            <button type="button" aria-label="expand-ditails" value="Expand-details" class="accordion">Expand details:</button>
+                            <div class="panel">
+                                <ul>
+                                    <li>Course Supervisor – Elisabeth Bennet</li>
+                                    <li>Course duration – 1 year – Monday to Friday - 2 hours per Day.*</li>
+                                    <li>All supplies included. </li>
+                                    <li>This class is limited to 10 students.</li>
+                                    <li>Suitable for children 5-6 years old.</li>
+                                    <li>Bring your biggest toothiest smile!</li>
+                                </ul>
+                                <p>*The next class starts in September 2023. Please, find more information about <a
+                                        href="#schedule-fees"> Schedule & Fees</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="class-image image-cut-and-paste">
+                        <button type="button" value="Enquire" class="enquire-button" onclick="location.href='#enquire'">Enquire</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="class">
+                <h3>Woodworking class</h3>
+                <div class="class-content">
+                    <div class="class-content-wrapper">
+                        <p>Welcome to this exciting class where your youth will get to create various fascinating products
+                            using hand carpentry tools. They will not only gain valuable experience in working with
+                            different types of wood, but also learn how to use, sharpen, and maintain these tools correctly.
+                            By the end of the course, they will have acquired new skills, knowledge, and a good set of
+                            tools, and best of all, they will have made beautiful wooden toys with their own hands. These
+                            toys are eco-friendly, safe, and perfect for children. Join us today and enjoy the satisfaction
+                            of creating something unique and special.
+                        </p>
+                        <button type="button" aria-label="expand-ditails" value="Expand-details" class="accordion">Expand details:</button>
+                        <div class="panel">
+                            <ul>
+                                <li>Course Supervisor – Ron Swanson </li>
+                                <li>Course duration – 1 year – Monday to Friday - 2 hours per Day.*</li>
+                                <li>All supplies included.** </li>
+                                <li>This class is limited to 7 students.</li>
+                                <li>Suitable for children 7-9 years old.</li>
+                                <li>Bring your biggest toothiest smile!</li>
+                            </ul>
+                            <p>*The next class starts in September 2023. Please, find more information about <a
+                                    href="#schedule-fees"> Schedule & Fees</a>.</p>
+                            <p>**The availability of your own tools will be discussed in the introductory lesson.</p>
+                        </div>
+                    </div>
+                    <div class="class-image image-woodworking">
+                        <button type="button" value="Enquire" class="enquire-button" onclick="location.href='#enquire'">Enquire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of the Classes section -->
+
+        <!-- Start of the Schedule $ Fees section -->
+        <div id="schedule-fees" class="wrapper schedule-and-fees">
+            <h2>Schedule & Fees</h2>
+            <p>Here at Hammer, Brush & Glue we divide the year into three terms:
+                <br>
+                - Autumn term runs from early September to mid-December
+                <br>
+                - Spring Term runs from early January to Easter
+                <br>
+                - Summer Term runs from Easter to mid-July
+            </p>
+
+            <div class="table-wrapper table-responsive-schedule">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Classes</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Drawing and Painting</th>
+                            <td>3:00 pm - 5:00 pm<br><span>Room 1</span></td>
+                            <td>3:00 pm - 5:00 pm<br><span>Room 1</span></td>
+                            <td>3:00 pm - 5:00 pm<br><span>Room 1</span></td>
+                            <td>3:00 pm - 5:00 pm<br><span>Room 1</span></td>
+                            <td>3:00 pm - 5:00 pm<br><span>Room 1</span></td>
+                        </tr>
+                        <tr>
+                            <th>Cutting and Pasting</th>
+                            <td>1:00 pm - 3:00 pm<br><span>Room 3</span></td>
+                            <td>1:00 pm - 3:00 pm<br><span>Room 3</span></td>
+                            <td>1:00 pm - 3:00 pm<br><span>Room 3</span></td>
+                            <td>1:00 pm - 3:00 pm<br><span>Room 3</span></td>
+                            <td>1:00 pm - 3:00 pm<br><span>Room 3</span></td>
+                        </tr>
+                        <tr>
+                            <th>Woodworking</th>
+                            <td>3:00 pm – 5:00 pm<br><span>Room 2</span></td>
+                            <td>3:00 pm – 5:00 pm<br><span>Room 2</span></td>
+                            <td>3:00 pm – 5:00 pm<br><span>Room 2</span></td>
+                            <td>3:00 pm – 5:00 pm<br><span>Room 2</span></td>
+                            <td>3:00 pm – 5:00 pm<br><span>Room 2</span></td>
+                        </tr>
+                    <tbody>
+                </table>
+            </div>
+
+            <div class="table-wrapper table-responsive">
+                <table class="schedule-table fees-table">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <th>Per Month</th>
+                            <th>Per Week</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>5 Days</th>
+                            <td>&euro; 350</td>
+                            <td>&euro; 70.38</td>
+                        </tr>
+                        <tr>
+                            <th>4 Days</th>
+                            <td>&euro; 250</td>
+                            <td>&euro; 57.69</td>
+                        </tr>
+                        <tr>
+                            <th>3 Days</th>
+                            <td>&euro; 200</td>
+                            <td>&euro; 46.15</td>
+                        </tr>
+                        <tr>
+                            <th>2 Days</th>
+                            <td>&euro; 145</td>
+                            <td>&euro; 33.46</td>
+                        </tr>
+                    <tbody>
+                </table>
+            </div>
+
+            <p>All monthly fees are to be paid by Direct Debit in advance.</p>
+        </div>
+        <!-- End of the Schedule $ Fees  section -->
+
+        <!-- Start of the Galery slider -->
+        <div class="section-gallery">
+            <p>Take a look at the priceless moments of life that we were able to capture!</p>
+            <div class="slider-wrap">
+                <div class="slider slider-gallery">
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-1.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-2.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-3.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-4.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-5.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-6.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-7.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-8.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide">
+                        <div class="gallery-image-container">
+                            <img src="images/classes-slider/slide-9.webp" alt="" class="gallery-photo">
+                        </div>
+                    </div>
+
+                    <button type="button" value="button-left" class="gallery-slider-btn gallery-slider-btn-left"><img class="blue-arrows" src="images/icons/left-blue-small.png" alt="arrow-left"></button>
+                    <button type="button" value="button-right" class="gallery-slider-btn gallery-slider-btn-right"><img class="blue-arrows" src="images/icons/right-blue-small.png" alt="arrow-right"></button>
+
+                    <div class="gallery-dots"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End of the Galery slider -->
+
+
+        <!-- Start of the About section -->
+        <div id="about" class="wrapper about-us">
+            <h2>Our Story</h2>
+            <p>The Hammer, Brush & Glue Learning Centre is a family-owned business that offers childcare classes to children
+                aged 5 to 9 years old. It was established in 2015 to serve the families of Sandyford and nearby communities.
+                Our friendly tutors are committed to providing genuine care and warmth to the children. The safety and
+                security of the children in our care are of utmost importance to us, and we strive to make sure they feel
+                happy and secure while under our supervision.</p>
+            <h3>Our Tutors</h3>
+            <p>Our qualified tutors strive for the most important accomplishment: from playing with pleasure to learning.
+            </p>
+           
+        </div>
+
+
+<div class="content-container">
+   
+    <div class="slider-for-our-tutors wrapper">
+        <div class="slide-tutor">
+            <div class="wrapper-tutor-photo"><img src="images/our-tutors/debry-medium.webp" alt="" class="tutor-photo">
+            </div>
+            <p><span>Debry Swanson</span>
+                <br>Drawing and painting class
+            </p>
+            <p>
+                Meet Debry, our leader, and motivator. A highly experienced teacher with over 9 years of teaching young artists. With a
+                degree from the Dublin Academy of Arts, Debry's lessons are carefully crafted to ensure maximum
+                benefit and interest for her students. She's also a member of the Union of Artists of Ireland
+                since 2013. Debry has participated in
+                and won various world exhibitions and competitions in fine arts.
+            </p>
+        </div>
+        <div class="slide-tutor">
+            <div class="wrapper-tutor-photo"><img src="images/our-tutors/elisabeth-medium.webp" alt="" class="tutor-photo">
+            </div>
+            <p><span>Elisabeth Bennet</span>
+                <br>Cutting and pasting class
+            </p>
+            <p>
+                Elisabeth has been working with children's groups at our centre for 8 years. She utilises a
+                unique game-based approach that sustains interest in learning and inspires creativity in
+                children. Elisabeth is a graduate of the Faculty of Decorative and Applied Arts at the London
+                Textile University.
+            </p>
+        </div>
+        <div class="slide-tutor">
+            <div class="wrapper-tutor-photo">
+                <img src="images/our-tutors/ron-medium.webp" alt="" class="tutor-photo">
+            </div>
+            <p><span>Ron Swanson</span>
+                <br>Woodworking class
+            </p>
+            <p>
+                Ron has over 9 years of experience teaching and working with children, making him a true master
+                in his field. He earned a "Decorative and Applied Art" degree from the College of Arts in 1998
+                and later graduated from the University of Technology and Design in 2010.
+            </p>
+        </div>
+    </div>
+    <div class="background"></div>
+</div>
+
+        <!--
+        <div class="slider-wrap-our-tuters">
+            <div class="slider">
+                <div class="our-tutors-slide">
+                    <div class="testimonial">
+                        <div class="our-tutors-tutor">
+                            <img src="images/our-tutors/debry-medium.webp" alt="" class="tutor-photo">
+                        </div>
+                        <p><b>Debry Swanson</b> - Drawing and painting class, our leader, and motivator.</p>
+                        <p>
+                            Meet Debry, a highly experienced teacher with over 9 years of teaching young artists. With a
+                            degree from the Dublin Academy of Arts, Debry's lessons are carefully crafted to ensure maximum
+                            benefit and interest for her students. She's also a member of the Union of Artists of Ireland
+                            since 2013 and the Union of Teachers-Artists of Ireland since 2014. Debry has participated in
+                            and won various world exhibitions and competitions in fine arts.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="our-tutors-slide">
+                    <div class="testimonial">
+                        <div class="our-tutors-tutor">
+                            <img src="images/our-tutors/elisabeth-medium.webp" alt="" class="tutor-photo">
+                        </div>
+                        <p><b>Elisabeth Bennet</b> - Cutting and pasting class.</p>
+                        <p>
+                            Elisabeth has been working with children's groups at our centre for 8 years. She utilises a
+                            unique game-based approach that sustains interest in learning and inspires creativity in
+                            children. Elisabeth is a graduate of the Faculty of Decorative and Applied Arts at the London
+                            Textile University.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="our-tutors-slide">
+                    <div class="testimonial">
+                        <div class="our-tutors-tutor">
+                            <img src="images/our-tutors/ron-medium.webp" alt="" class="tutor-photo">
+                        </div>
+                        <p><b>Ron Swanson</b> - Woodworking class.</p>
+                        <p>
+                            Ron has over 9 years of experience teaching and working with children, making him a true master
+                            in his field. He earned a "Decorative and Applied Art" degree from the College of Arts in 1998
+                            and later graduated from the University of Technology and Design in 2010.
+                        </p>
+                    </div>
+                </div>
+
+                <button type="button" value="button-left" class="our-tutors-slider-btn our-tutors-slider-btn-left"><img class="blue-arrows" src="images/icons/left-blue-small.png" alt="arrow-left"></button>
+                <button type="button" value="button-right" class="our-tutors-slider-btn our-tutors-slider-btn-right"><img class="blue-arrows" src="images/icons/right-blue-small.png" alt="arrow-right"></button>
+
+                <div class="our-tutors-dots"></div>
+            </div>
+        </div> -->
+        <!-- End of the About section -->
+
+        <!-- Start of the Contact section -->
+        <div class="wrapper">
+            <div id="contact" class="contact-us">
+                <h2>Contact Us</h2>
+                <div class="wrapper-contact-content">
+                    <div class="container-contact-form">
+                        <h3 id="enquire" >Enquire about our Availability </h3>
+                        <form class="contact-form" action="send-mail.php" method="post">
+                            <label class="wrap-input half-width" for="childName">Child&#039;s First Name
+                                <input size="40" aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="text" name="child-name" id="childName" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="childLastName">Child&#039;s Last Name
+                                <input size="40" aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="text" name="child-last-name" id="childLastName" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="childDob">Child&#039;s Date of Birth
+                                <input aria-required="true"
+                                aria-invalid="false" value="" type="date" name="child-dob" id="childDob" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="gender">Male/Female
+                                <select aria-required="true"
+                                aria-invalid="false" name="gender" id="gender" required multiple>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            </label>
+                            
+
+                            <label class="wrap-input half-width" for="className">Select a class
+                                <select  aria-required="true"
+                                aria-invalid="false" name="class-name" id="className" required multiple>
+                                <option value="Drowing and Pasting">Drawing and Painting</option>
+                                <option value="Cutting and Pastingv">Cutting and Pasting</option>
+                                <option value="Woodworking">Woodworking</option>
+                            </select>
+                            </label>
+
+                            <label class="wrap-input half-width" for="parentFirstName">Parents First Name
+                                <input aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="text" name="parent-first-name"  id="parentFirstName" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="parentLastName">Parents Last Name
+                                <input aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="text" name="parent-last-name" id="parentLastName" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="yourEmail">Your Email
+                                <input 
+                                aria-required="true" aria-invalid="false" placeholder="" value="" type="email" name="your-email"  id="yourEmail" required>
+                            </label>
+                           
+                            <label class="wrap-input" for="homeAddress">Home Address
+                                <input  aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="text" name="home-address" id="homeAddress" required>
+                            </label>
+
+                            <label class="wrap-input half-width" for="mobilePhone">Mobile phone
+                                <input  aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="number" name="mobile-phone" id="mobilePhone" required>
+                            </label>
+                            
+                            <label class="wrap-input half-width" for="homePhone">Home Phone
+                                <input aria-required="true"
+                                aria-invalid="false" placeholder="" value="" type="number" name="home-phone" id="homePhone">
+                            </label>
+                            
+                            <label class="wrap-input" for="yourMessage">Message
+                                <textarea cols="40" rows="4" aria-invalid="false"
+                                placeholder="Any other information you would like to provide?" name="your-message" id="yourMessage">
+                            </textarea>
+                            </label>
+
+                            <button class="enquire-button form-submit" type="submit" value="Enquire" id="enquire-submit">Enquire</button>
+                            <div class="request-sent">Request sent!</div>
+                            <div class="request-error">Error!</div>
+                        </form>
+                    </div>
+
+                    <div class="get-in-touch">
+                        <div>
+                            <h3>Get in touch</h3>
+                            <ul>
+                                <li class="contact-icon phone-icon">Phone: <a href="tel:090-7333333">090 7333333</a></li>
+                                <li class="contact-icon email-icon">Email: <a href="mailto:director@hammerbrushglue.com">director@hammerbrushglue.com</a></li>
+                                <li class="contact-icon location-icon"><address>Carmanhall Road, Sandyford, D18, Dublin</address></li>
+                                <li class="contact-icon open-hours-icon">Open hours: Mon-Fri 10 am to 7 pm, Sat & Sun Closed.</li>
+                                <li>Hammer, Brush & Glue Learning Centre is closed on all public holidays.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Find us on the map</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.662900779743!2d-6.2150667223328995!3d53.2776593798594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670908b2230073%3A0xf16f5c43f4d6655d!2sCarmanhall%20Rd%2C%20Sandyford%2C%20Dublin%2C%20Ireland!5e0!3m2!1sen!2suk!4v1691873826322!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" title = "Google Maps" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of the Contact section -->
+
+        <!-- Start of the Why choose Us cards -->
+        <div class="why-choose-us">
+            <h2>Why choose Us?</h2>
+            <div class="slider">
+                <div class="why-choose-us-slide">
+                    <div class="testimonial">
+                        <h3 class="testimonial-header">Fun facilities</h3>
+                        <p class="testimonial-text">
+                            At our Learning Centre, we provide a variety of fun and interactive spaces, both inside and outside, that encourage children to play, learn, and grow. These facilities are designed to support their development and education positively and engagingly.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="why-choose-us-slide">
+                    <div class="testimonial">
+                        <h3 class="testimonial-header">
+                            Community involvement
+                        </h3>
+                        <p class="testimonial-text">
+                            Throughout every season, our children have access to a wide range of neighbourhood events and activities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="why-choose-us-slide">
+                    <div class="testimonial">
+                        <h3 class="testimonial-header">
+                            Personalised approach
+                        </h3>
+                        <p class="testimonial-text">
+                            Our approach to supporting each child's learning and development is personalised and individualised. We prioritise a holistic style of care that ensures every child receives the necessary support and attention.
+                        </p>
+                    </div>
+                </div>
+
+                <button type="button" value="button-left" class="why-choose-us-slider-btn why-choose-us-slider-btn-left"><img class="blue-arrows" src="images/icons/left-blue-small.png" alt="arrow-left"></button>
+                <button  type="button" value="button-right" class="why-choose-us-slider-btn why-choose-us-slider-btn-right"><img class="blue-arrows" src="images/icons/right-blue-small.png" alt="arrow-right"></button>
+
+                <div class="why-choose-us-dots"></div>
+            </div>
+        </div>
+    </main>
+    <!-- Start of the Footer  with navigation -->
+    <footer>
+        <nav>
+            <a href="#"><img src="images/logo-medium.webp" alt="hummerBrushAndGlue-logo"></a>
+            <div class="footer-navigation">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#classes">Classes</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts-and-socia-media">
+                <ul>
+                    <li>Phone: <a href="tel:090-7333333">090 7333333</a></li>
+                    <li><address>Carmanhall Road, Sandyford, D18, Dublin</address></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.instagram.com/"><img src="images/icons/instagram-logo-small.webp" alt="link to our instagram"></a></li>
+                    <li><a href="https://www.facebook.com/"><img src="images/icons/f-logo.png" alt="link to our facebook"></a></li>
+                    <li><a href="https://www.pinterest.com/"><img src="images/icons/p-logo-small.webp" alt="link to our pinterest"></a></li>
+                    <li><a href="https://twitter.com/"><img src="images/icons/twitter-logo-small.webp" alt="link to our twitter"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> All rights reserved © 2023 Hammer, Brush & Glue Learning Centre. 
+            <br>
+            Designed, illustrated and cooded by Ksenia Pedaksoo.</p>
+    </footer>
+    <!-- End of the Footer with navigation -->
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
