@@ -76,11 +76,11 @@
     function playPause() { 
         if (myVideo.paused) {
             myVideo.play();
-            playPauseButton.innerHTML = "<img alt=\"pause\" src=\"images/icons/pause.webp\">";
+            playPauseButton.innerHTML = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 512 512\"><title>Play</title><circle cx=\"256\" cy=\"256\" r=\"192\" style=\"fill:#3a4887;stroke:#fff;stroke-miterlimit:10;stroke-width:32px\"/><polygon points=\"203 166 350 256 206 346 206 157\" style=\"fill:#fff;\"/></svg>";
             }
         else  {
             myVideo.pause(); 
-            playPauseButton.innerHTML = "<img alt=\"play\" src=\"images/icons/play.webp\">";
+            playPauseButton.innerHTML = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 512 512\"><title>Pause</title><path d=\"M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z\" style=\"fill:#3a4887;stroke:#fff;stroke-miterlimit:10;stroke-width:32px\"/><line x1=\"208\" y1=\"192\" x2=\"208\" y2=\"320\" style=\"fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px\"/><line x1=\"304\" y1=\"192\" x2=\"304\" y2=\"320\" style=\"fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px\"/></svg>";
             }
     } 
   

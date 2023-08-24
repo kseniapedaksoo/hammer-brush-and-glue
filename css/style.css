@@ -426,6 +426,10 @@ video {
     height: auto;
 }
 
+svg {
+    color: #fff;
+}
+
 .logo {
     display: none;
 }
