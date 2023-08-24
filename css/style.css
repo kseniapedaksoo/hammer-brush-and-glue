@@ -94,6 +94,7 @@ a:focus,
     padding: 6px 12px;
     cursor: pointer;
     border: 2px solid #3a4887;
+    font-size: 16px;
 }
 
 .wrapper>p {
@@ -874,6 +875,19 @@ iframe {
         0px 0px 0px 2px #3a4887;
 }
 
+form {
+    width: 75%;
+    margin: auto;
+}
+
+textarea {
+    min-height: 200px;
+
+}
+
+form button {
+    min-width: 120px;
+}
 
 .contact-us h2 {
     background-color: #488433;
@@ -883,11 +897,6 @@ iframe {
     color: #3a4887;
     text-align: center;
 
-}
-
-form {
-    width: 75%;
-    margin: auto;
 }
 
 .wrapper-contact-content {
@@ -932,10 +941,6 @@ textarea {
     -webkit-min-logical-width: calc(100% - 16px);
 }
 
-
-input:invalid {
-    border: 2px solid #dd342a;
-}
 
 /*
     This peace of code belongs to the icons for the Get in touch section. 
@@ -1087,10 +1092,8 @@ footer nav>a img {
 }
 
 .request-error {
-
     background-color: #dd332a69;
     color: #dd342a;
-    text-align: left;
     border-left: 2px solid #dd342a;
 }
 
@@ -1100,7 +1103,10 @@ footer nav>a img {
     text-align: left;
     padding: 5px 10px;
     font-weight: bold;
+    display: none;
 }
+
+
 
 /* ---------------- 404 PAGE styles --------------------- */
 

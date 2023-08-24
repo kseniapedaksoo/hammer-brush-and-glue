@@ -124,7 +124,51 @@
   }
 
 
- 
+  /* 
+      Form
+  */
+
+  /* 
+      This snippet adds an event listener to the form, listening to when submit action will be performed.
+      Once submit button is pressed, the event will activate and the code will execute send-mail.php script
+      It will then wait until the script has completed executed (it waits via 'await' keyword)
+      Upon completion of send-mail.php we are parsing out the json response and checking whether
+      or not an email has been sent successfully. If the email has been sent succesfully then we are 
+      displaying successful notification, alternatively, we are displaying error notification. 
+      We are also using setTimeout to remove notification and bring back the ENQUIRE button
+  */
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const enquireButton = document.getElementById('enquire-submit');
+    const form = document.querySelector('.contact-form');
+    const sentMessage = document.querySelector('.request-sent');
+    const errorMessage = document.querySelector('.request-error');
+
+    form.addEventListener('submit', async function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const response = await fetch('send-mail.php', {
+            method: 'POST',
+            body: formData
+        });
+      
+        const jsonResponse = await response.json();
+
+        if (jsonResponse.is_email_sent) {
+            enquireButton.style.display = 'none'
+            sentMessage.style.display = 'block';
+        } else {
+            enquireButton.style.display = 'none'
+            errorMessage.style.display = 'block';
+        }
+        setTimeout(function (){
+            enquireButton.removeAttribute('style')
+            sentMessage.style.display = 'none';
+            errorMessage.style.display = 'none';
+        }, 3000)
+    });
+});
  
 
 })();
