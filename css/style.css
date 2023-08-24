@@ -124,7 +124,7 @@ a:focus,
 
 .slider {
     max-width: 100rem;
-    height: 57rem;
+    height: 47rem;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -486,7 +486,7 @@ svg {
 
 .testimonial-header {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin: 0 !important;
 }
 
 .testimonial-text {
@@ -499,7 +499,6 @@ svg {
 
 .testimonial-photo {
     width: 200px;
-    margin: 2rem;
 }
 
 
@@ -1488,6 +1487,10 @@ footer nav>a img {
 
     .testimonial {
         width: 65%;
+    }
+
+    .testimonial-header {
+        margin-bottom: 1.5rem;
     }
 
     /* Our Classes styles */
