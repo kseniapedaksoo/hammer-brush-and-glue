@@ -8,7 +8,6 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 /* Base styles */
@@ -69,6 +68,26 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
+}
+
+header ul,
+footer ul, 
+.contact-us ul {
+    list-style-type: none;
+}
+
+ul span {
+    color: #333;
+}
+
+.our-classes ul,
+.schedule-and-fees ul {
+    color: #3a4887;
+    display: block;
+    width: 72%;
+    margin: auto;
+    padding-top: 0.5rem;
+    list-style: disc;
 }
 
 a:hover,
@@ -575,7 +594,11 @@ video {
     text-align: center;
 }
 
-
+.class-content-wrapper>p span {
+    color: #333;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
 
 /* About Us Styles*/
 
@@ -725,6 +748,9 @@ video {
     margin-bottom: 10px;
 }
 
+.panel ul {
+    width: 90% !important;
+}
 
 
 /* Schedule & Fees styles */
@@ -733,6 +759,7 @@ video {
     color: #3a4887;
     text-align: center;
 }
+
 
 /* Table Styles */
 
@@ -771,7 +798,7 @@ tr:nth-child(even) {
 
 .table-wrapper {
     overflow-x: auto;
-    margin: 6% 10%;
+    margin: 6% 10% 2%;
     border: 2px solid #3a4887;
 }
 
