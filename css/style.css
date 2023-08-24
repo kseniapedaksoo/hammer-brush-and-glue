@@ -760,6 +760,11 @@ video {
     text-align: center;
 }
 
+.schedule-and-fees p:last-of-type {
+    text-align: center;
+    padding: 0.5rem 0 2.5rem;
+}
+
 
 /* Table Styles */
 
