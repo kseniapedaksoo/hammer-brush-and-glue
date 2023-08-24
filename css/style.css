@@ -187,7 +187,7 @@ a:focus,
     left: 6%;
     transform: translate(-50%, -50%);
     background-image: url(../images/icons/arrow-left.png);
-    background-size: 31px;
+    background-size: 28px;
     background-repeat: no-repeat;
 
 }
@@ -199,7 +199,7 @@ a:focus,
     transform: translate(50%, -50%);
     background-position: right;
     background-image: url(../images/icons/arrow-right.png);
-    background-size: 31px;
+    background-size: 28px;
     background-repeat: no-repeat;
 }
 
