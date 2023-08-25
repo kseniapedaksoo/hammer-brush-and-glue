@@ -1090,6 +1090,7 @@ footer nav>a img {
     max-width: 300px;
     margin-top: -13rem;
     width: 100%;
+    padding-left: 15px;
 }
 
 .contacts-and-socia-media ul:first-child {
@@ -1654,6 +1655,7 @@ footer nav>a img {
         margin-top: unset;
         width: 100%;
         vertical-align: bottom;
+        padding-left: unset;
     }
 
     footer nav>a {
