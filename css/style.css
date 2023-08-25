@@ -468,6 +468,7 @@ svg {
 
 .home-content p:last-child {
     margin-bottom: auto;
+    padding-bottom: 30px;
 }
 
 /* What Children say styles*/
@@ -1476,8 +1477,13 @@ footer nav>a img {
         padding: 1rem 1rem 1.6rem 2.5rem;
     }
 
+
+
     /* What Children say styles*/
 
+    .section-children-say {
+        border-top: unset; 
+    }
 
     .slider {
         height: 42rem;
@@ -1522,6 +1528,7 @@ footer nav>a img {
         border-top-right-radius: unset;
     }
 
+ 
 
 
     /* Gallery Slider */
