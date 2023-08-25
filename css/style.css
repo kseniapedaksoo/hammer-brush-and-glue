@@ -370,9 +370,6 @@ nav .logo-mobile img {
     font-family: 'Dokdo', cursive;
 }
 
-.nav-bar ul li a.active {
-    color: #dd342a;
-}
 
 .nav-bar.active ul .logo-mobile {
     background: transparent;
