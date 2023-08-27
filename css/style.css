@@ -434,6 +434,7 @@ svg {
     width: 40px;
     background: unset;
     border: unset;
+    cursor: pointer;
 }
 
 .home-content {
